@@ -6,14 +6,29 @@
 
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height:400px;
+    height:200px;
 }
 
 .btn{
-    height: 100px;
-    width: 200px;
-    margin: 30px;
-    border-radius: 5px;
+    height: 80px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.ans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ans > p{
+    margin: 10px;
 }
