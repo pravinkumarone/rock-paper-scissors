@@ -22,6 +22,10 @@
     cursor: pointer;
 }
 
+span{
+    font-size: 35px;
+}
+
 .ans{
     display: flex;
     flex-direction: column;
